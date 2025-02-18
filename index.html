@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Mí</title>
+    <link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+    <header>
+        <h1>Acerca de Mí</h1>
+    </header>
+
+    <main class="container">
+        <section class="row">
+            <div class="grid-item" id="admiro">
+                <h2>Persona a quien admiro</h2>
+                <p>Haz clic para revelar</p>
+                <button class="reveal-btn" data-target="img-admiro">Mostrar Imagen</button>
+                <img id="img-admiro" class="hidden img-fix" src="1.png" alt="Nikola Tesla">
+            </div>
+            <div class="grid-item" id="meta">
+                <h2>Meta a futuro</h2>
+                <p>Pasa el mouse para descubrir</p>
+                <button class="reveal-btn" data-target="img-meta">Mostrar Imagen</button>
+                <img id="img-meta" class="hidden img-fix" src="2.png" alt="Meta a futuro">
+            </div>
+            <div class="grid-item" id="musica">
+                <h2>Género musical favorito</h2>
+                <p>Presiona cualquier tecla</p>
+                <button class="reveal-btn" data-target="img-musica">Mostrar Imagen</button>
+                <img id="img-musica" class="hidden img-fix" src="3.png" alt="Música favorita">
+            </div>
+        </section>
+        <section class="row">
+            <div class="grid-item" id="vivir">
+                <h2>Algo sin lo que no podría vivir</h2>
+                <p>Doble clic para revelar</p>
+                <button class="reveal-btn" data-target="img-vivir">Mostrar Imagen</button>
+                <img id="img-vivir" class="hidden img-fix" src="4.png" alt="Algo esencial">
+            </div>
+            <div class="grid-item" id="talento">
+                <h2>Un talento que poseo</h2>
+                <p>Mantén presionado para revelar</p>
+                <button class="reveal-btn" data-target="img-talento">Mostrar Imagen</button>
+                <img id="img-talento" class="hidden img-fix" src="5.png" alt="Talento">
+            </div>
+            <div class="grid-item" id="animal">
+                <h2>Mi animal favorito</h2>
+                <p>Presiona un botón</p>
+                <button id="mostrarAnimal">Mostrar</button>
+                <button class="reveal-btn" data-target="img-animal">Mostrar Imagen</button>
+                <img id="img-animal" class="hidden img-fix" src="6.png" alt="Animal favorito">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="marca-agua">Brian Romero</p>
+    </footer>
+
+    <script src="lab.js"></script>
+</body>
+</html>
